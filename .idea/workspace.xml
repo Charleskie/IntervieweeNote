@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caa794d3-622b-400e-b152-01cf9640716b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/NestedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/NestedIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/pileBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/postorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/qe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/reorderList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meituan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/meituan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Myschool/Exception/BankDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/Exception/BankDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Myschool/Exception/CheckingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/Exception/CheckingAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Myschool/Exception/InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/Exception/InsufficientFundsException.class" afterDir="false" />
@@ -236,43 +233,15 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.addTwoNumbers">
+  <component name="RunManager" selected="Application.MergeKLinkNode">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Algorithm.GCD" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewee.Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.MyCalendar" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewee.Leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCalendarV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.MyCalendarV2" />
+    <configuration name="MergeKLinkNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.MergeKLinkNode" />
       <module name="meituan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -319,6 +288,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="qe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.qe" />
+      <module name="meituan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewee.Leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.reorderList" />
+      <module name="meituan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewee.Leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -345,19 +342,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MergeKLinkNode" />
+      <item itemvalue="Application.qe" />
+      <item itemvalue="Application.reorderList" />
       <item itemvalue="Application.addTwoNumbers" />
       <item itemvalue="Application.pileBox" />
-      <item itemvalue="Application.GCD" />
-      <item itemvalue="Application.MyCalendar" />
-      <item itemvalue="Application.MyCalendarV2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKLinkNode" />
+        <item itemvalue="Application.qe" />
+        <item itemvalue="Application.reorderList" />
         <item itemvalue="Application.addTwoNumbers" />
         <item itemvalue="Application.pileBox" />
-        <item itemvalue="Application.MyCalendarV2" />
-        <item itemvalue="Application.MyCalendar" />
-        <item itemvalue="Application.GCD" />
       </list>
     </recent_temporary>
   </component>
@@ -387,6 +384,7 @@
       <workItem from="1655303435956" duration="629000" />
       <workItem from="1655304282096" duration="245000" />
       <workItem from="1655304600870" duration="680000" />
+      <workItem from="1655476885437" duration="13874000" />
     </task>
     <task id="LOCAL-00001" summary="GCD算法">
       <created>1575200714014</created>
@@ -508,6 +506,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java</url>
           <line>15</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java</url>
