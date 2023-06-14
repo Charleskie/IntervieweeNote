@@ -4,18 +4,26 @@ import java.util.Arrays;
 
 public class quicksort {
 
-    public void sort(int p, int[] a, int left, int right){
-        for (int i = left; i < right; i++) {
-            if(a[p]<a[right]){
-                swap(left, right, a);
+    public static int splitArr(int[] arr, int left, int right){
+        int p = arr[left];
+        int index = left + 1;
+        for(int i=left + 1; i<=right; i++){
+            if(arr[i]>p){
+                swap(arr, i, index);
+                index ++;
             }
         }
+        swap(arr, left, index -1);
+        return index-1;
     }
 
-    public void swap(int a, int b, int[] arr){
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
+    public static int[] sort(int[] a, int left, int right){
+        if(left < right){
+            int p = splitArr(a, left, a.length-1);
+            sort(a, left, p-1);
+            sort(a, p+1, right);
+        }
+        return a;
     }
 
 
@@ -50,8 +58,12 @@ public class quicksort {
 
     public static void main(String[] args) {
         int[] arr = new int[]{11,45,4,47,56,8,1,35,45,45,65,87,49};
+        int[] a2 = Arrays.copyOf(arr, arr.length);
         Arrays.stream(quickSort(arr, 0, arr.length - 1)).forEach(s -> {
             System.out.println(s);
+        });
+        Arrays.stream(sort(a2, 0, a2.length -1)).forEach(s -> {
+            System.out.println("a2: "+s);
         });
     }
 }
