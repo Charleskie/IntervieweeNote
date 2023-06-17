@@ -1,6 +1,9 @@
 package interviewee.Algorithm;
 
-import java.util.Arrays;
+import org.apache.storm.guava.collect.Lists;
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class quicksort {
 
@@ -57,7 +60,9 @@ public class quicksort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{11,45,4,47,56,8,1,35,45,45,65,87,49};
+        int[] arr = new int[]{1,2,1,3,4,2};
+        productExceptSelf(arr);
+        rotate(arr, 5);
         int[] a2 = Arrays.copyOf(arr, arr.length);
         Arrays.stream(quickSort(arr, 0, arr.length - 1)).forEach(s -> {
             System.out.println(s);
@@ -65,5 +70,90 @@ public class quicksort {
         Arrays.stream(sort(a2, 0, a2.length -1)).forEach(s -> {
             System.out.println("a2: "+s);
         });
+
+        int[][] d = new int[][]{{1,3}, {2,6}, {8,10},{15,18}};
+        Arrays.stream(d).forEach(s -> {
+            System.out.println(String.format("d:[%d, %d]", s[0], s[1]) );
+        });
+
+        Arrays.stream(merge(d)).forEach(s ->{
+            System.out.println(String.format("dnew:[%d, %d]", s[0], s[1]) );
+        });
+
+    }
+
+    public static void rotate(int[] nums, int k) {
+        List<Integer> list = new ArrayList<>();
+        for(int i: nums){
+            list.add(i);
+        }
+        for(int i: nums){
+            list.add(i);
+        }
+
+        int step = k>nums.length-1? k%nums.length-1: k;
+        int index = 0;
+        int j=0;
+        for(int i=0; i<list.size()-1; i++){
+            if(j>=nums.length) break;
+            if(i<=step){
+                continue;
+            }
+            nums[j++] = list.get(i);
+        }
+
+    }
+
+    public static int[][] merge(int[][] intervals) {
+        quickSort(intervals, 0, intervals.length-1);
+        List<int[]> cp = new ArrayList<>();
+        for(int i=0; i<=intervals.length-1; i++){
+            int L = intervals[i][0], R = intervals[i][1];
+            if(cp.size() == 0 || cp.get(cp.size()-1)[1] < L){
+                cp.add(new int[]{L, R});
+            }else{
+                cp.get(cp.size()-1)[1] =Math.max(cp.get(cp.size()-1)[1], R);
+            }
+
+        }
+        return cp.toArray(new int[cp.size()][]);
+    }
+
+    public static void quickSort(int[][] arr, int left, int right){
+        if(left<right){
+            int p = left;
+            int index = left + 1;
+            for(int i=left+1; i<=right; i++){
+                if(arr[i][0]<arr[p][0]){
+                    swap(arr, i, index);
+                    index ++;
+                }
+            }
+            swap(arr, p, index - 1);
+            p =index-1;
+            quickSort(arr, left, p-1);
+            quickSort(arr, p+1, right);
+        }
+    }
+
+    public static void swap(int[][] arr, int left, int right){
+        int[] temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+    }
+
+    public static int[] productExceptSelf(int[] nums) {
+        int[] num = new int[nums.length];
+        num[0] = 1;
+        for(int i=1; i<nums.length; i++){
+            num[i] = nums[i-1] * num[i-1];
+        }
+        num[num.length-1] = 1;
+        int R =1;
+        for(int j=num.length-1; j>=0; j--){
+            num[j] = R * num[j];
+            R *= nums[j];
+        }
+        return num;
     }
 }
