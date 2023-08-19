@@ -1,5 +1,7 @@
 package interviewee.Leecode;
 
+import interviewee.Leecode.listnode.ListNode;
+
 public class addTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);

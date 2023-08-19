@@ -1,5 +1,7 @@
 package interviewee.Leecode;
 
+import interviewee.Leecode.listnode.ListNode;
+
 public class MergeKLinkNode {
     public static ListNode mergeKLists(ListNode[] lists) {
         if(lists == null || lists.length == 0){

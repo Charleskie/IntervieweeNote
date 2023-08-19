@@ -1,9 +1,6 @@
 package interviewee.Algorithm;
 
-import org.apache.storm.guava.collect.Lists;
-
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class quicksort {
 
@@ -156,4 +153,54 @@ public class quicksort {
         }
         return num;
     }
+
+    public boolean isCode(String a, String b){
+        if(a.length() != b.length()){
+            return false;
+        }
+        char[] ca = a.toCharArray();
+        char[] cb = b.toCharArray();
+
+        for (int i = 0; i < ca.length; i++) {
+            if(ca[i] != cb[i]){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> group = new ArrayList<>();
+        for (int i = 0; i < strs.length; i++) {
+            if(strs[i] == null)continue;
+            List<String> list = new ArrayList<>();
+            list.add(strs[i]);
+            for (int j = i+1; j < strs.length; j++) {
+                if(strs[i] == null)continue;
+                if(isCode(strs[i], strs[j])){
+                    list.add(strs[j]);
+                    strs[j] = null;
+                }
+            }
+            group.add(list);
+        }
+        return group;
+
+    }
+
+//    public int longestConsecutive(int[] nums) {
+//        List<Integer> list = new ArrayList<>();
+//        for (int i = 0; i < nums.length; i++) {
+//            list.add(nums[i]);
+//            for (int j = i+1; j < nums.length; j++) {
+//                if()
+//            }
+//        }
+//
+//    }
+
+//    public List<String> letterCombinations(String digits) {
+//        Map<String, List>
+//
+//    }
 }

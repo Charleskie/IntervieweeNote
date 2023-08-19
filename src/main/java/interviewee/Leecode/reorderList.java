@@ -1,5 +1,7 @@
 package interviewee.Leecode;
 
+import interviewee.Leecode.listnode.ListNode;
+
 /***
  * 给定一个单链表 L 的头节点 head ，单链表 L 表示为：
  *
