@@ -50,14 +50,11 @@ public class quicksort {
         return index - 1;
     }
 
-    private static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,2,1,3,4,2};
+        quickSortKim(arr, 0, arr.length-1);
         productExceptSelf(arr);
         rotate(arr, 5);
         int[] a2 = Arrays.copyOf(arr, arr.length);
@@ -137,6 +134,30 @@ public class quicksort {
         int[] temp = arr[left];
         arr[left] = arr[right];
         arr[right] = temp;
+    }
+
+
+    public static void quickSortKim(int[] arr, int left, int right){
+        if(left< right){
+            int p = left;
+            int index = left + 1;
+            for(int i=left+1; i <= right; i++){
+                if(arr[left] > arr[i]) {
+                    swap(arr, i, index);
+                    index++;
+                }
+            }
+            swap(arr, p, index -1);
+            p = index-1;
+            quickSortKim(arr, left, p-1);
+            quickSortKim(arr, p+1, right);
+        }
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     public static int[] productExceptSelf(int[] nums) {

@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caa794d3-622b-400e-b152-01cf9640716b" name="Default" comment="quick sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/sameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/dp/ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/invertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/deleteDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/maxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/minCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/queensAttacktheKing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/reorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/reorderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/postorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/postorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,9 +202,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.RevertListNode">
+  <component name="RunManager" selected="应用程序.ClimbStairs">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.dp.ClimbStairs" />
+      <module name="meituan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewee.Leecode.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,8 +243,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pileBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.pileBox" />
+    <configuration name="deleteDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.listnode.deleteDuplicates" />
       <module name="meituan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -237,13 +257,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="qe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.qe" />
+    <configuration name="maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.maxProfit" />
       <module name="meituan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewee.Leecode.listnode.*" />
+          <option name="PATTERN" value="interviewee.Leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,27 +271,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Algorithm.quicksort" />
+    <configuration name="sameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.TreeNode.sameTree" />
       <module name="meituan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewee.Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.reorderList" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewee.Leecode.listnode.*" />
+          <option name="PATTERN" value="interviewee.Leecode.TreeNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,16 +311,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.ClimbStairs" />
+      <item itemvalue="应用程序.deleteDuplicates" />
+      <item itemvalue="应用程序.maxProfit" />
+      <item itemvalue="应用程序.sameTree" />
       <item itemvalue="应用程序.RevertListNode" />
-      <item itemvalue="应用程序.interviewee.Leecode.pileBox" />
-      <item itemvalue="应用程序.interviewee.Leecode.qe" />
-      <item itemvalue="应用程序.interviewee.Leecode.reorderList" />
-      <item itemvalue="应用程序.quicksort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ClimbStairs" />
+        <item itemvalue="应用程序.maxProfit" />
+        <item itemvalue="应用程序.deleteDuplicates" />
+        <item itemvalue="应用程序.sameTree" />
         <item itemvalue="应用程序.RevertListNode" />
-        <item itemvalue="应用程序.quicksort" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686754286418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="quick sort">
+      <created>1692428998063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692428998063</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -510,18 +526,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java</url>
-          <line>147</line>
+          <line>168</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java</url>
-          <line>153</line>
+          <line>174</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="40" />
+          <line>7</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/deleteDuplicates.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java</url>
