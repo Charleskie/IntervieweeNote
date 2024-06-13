@@ -5,79 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caa794d3-622b-400e-b152-01cf9640716b" name="Default" comment="算法复习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/Rotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/mergearr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/numberOfWeeks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/subarrysum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/dp/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/SwapPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/detectCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/removeNthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/sortlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/other/WordDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/string.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/IntToroman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/MostCompetitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/StringAllMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/nowcode/CalFanbei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/nowcode/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/tes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__clj_stacktrace_clj_stacktrace_0_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__clj_time_clj_time_0_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__clout_clout_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_disruptor_disruptor_2_10_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_carbonite_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__compojure_compojure_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__hiccup_hiccup_0_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_storm_storm_core_0_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_clojure_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_core_incubator_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_math_numeric_tower_0_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_tools_cli_0_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_tools_logging_0_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clojure_tools_macro_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jgrapht_jgrapht_core_0_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_6_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ring_ring_core_1_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ring_ring_devel_0_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ring_ring_jetty_adapter_0_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ring_ring_servlet_0_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/matchChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meituan.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/CallLogCounterBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/CallLogCreatorBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/FakeCallLogReaderSpout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/LogAnalyserStorm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/queensAttacktheKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/queensAttacktheKing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/SpecialWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/SpecialWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/duxiaoman/boxandmatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/likeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/likeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/Exception/BankDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/Exception/BankDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/library/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/library/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/library/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/library/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/CallLogCounterBolt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/CallLogCreatorBolt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/FakeCallLogReaderSpout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/LogAnalyserStorm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/Algorithm/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/Algorithm/KMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/CalLotteryBonus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/CalLotteryBonus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/alibaba/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/alibaba/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/alibaba/SpecialWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/alibaba/SpecialWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/food.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/luckyId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/luckyId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/jingdong/graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/jingdong/graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/jingdong/likeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/jingdong/likeString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/meituan/meituan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/meituan/meituan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/meituan/tu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/meituan/tu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/shortestString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/shortestString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/specialphonenumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/specialphonenumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/t4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/t4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/toutiao/containsDoubleString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/toutiao/containsDoubleString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/findHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/findHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/wangyibidata1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/wangyibidata1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/xiecheng/checkticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/xiecheng/checkticket.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +93,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Charleskie&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Charleskie/IntervieweeNote.git&quot;,
+    &quot;accountId&quot;: &quot;d5cfad18-4cf7-47d7-925b-07b8dbc759d8&quot;
+  }
+}</component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -256,18 +240,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "应用程序.detectCycle.executor": "Debug",
-    "应用程序.maxDistance.executor": "Debug"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Permutation.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.arr.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.detectCycle.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.matchChars.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.maxDistance.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.test.executor&quot;: &quot;Debug&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.maxDistance">
+}</component>
+  <component name="RunManager" selected="应用程序.matchChars">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -279,20 +275,6 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MostCompetitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.tianyiyun.MostCompetitive" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewee.Leecode.tianyiyun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,36 +293,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.other.WordDistance" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewee.Leecode.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="detectCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.listnode.detectCycle" />
+    <configuration name="arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.arr" />
       <module name="meituan" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interviewee.Leecode.listnode.*" />
+          <option name="PATTERN" value="interviewee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="matchChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matchChars" />
+      <module name="meituan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,6 +331,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="meituan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,21 +360,29 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.matchChars" />
+      <item itemvalue="应用程序.arr" />
+      <item itemvalue="应用程序.test" />
       <item itemvalue="应用程序.maxDistance" />
-      <item itemvalue="应用程序.detectCycle" />
-      <item itemvalue="应用程序.MostCompetitive" />
       <item itemvalue="应用程序.Permutation" />
-      <item itemvalue="应用程序.WordDistance" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.maxDistance" />
-        <item itemvalue="应用程序.detectCycle" />
+        <item itemvalue="应用程序.matchChars" />
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.arr" />
         <item itemvalue="应用程序.Permutation" />
-        <item itemvalue="应用程序.WordDistance" />
-        <item itemvalue="应用程序.MostCompetitive" />
+        <item itemvalue="应用程序.maxDistance" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -419,6 +411,8 @@
       <workItem from="1655304282096" duration="245000" />
       <workItem from="1655304600870" duration="680000" />
       <workItem from="1655476885437" duration="13874000" />
+      <workItem from="1717381055248" duration="4609000" />
+      <workItem from="1718189217735" duration="3700000" />
     </task>
     <task id="LOCAL-00001" summary="GCD算法">
       <created>1575200714014</created>
@@ -656,6 +650,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxDistance.java</url>
           <line>9</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java</url>

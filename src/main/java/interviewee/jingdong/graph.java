@@ -1,8 +1,8 @@
 package interviewee.jingdong;
 
-import clojure.lang.IFn;
-
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class graph{
     public static void main(String[] args){
