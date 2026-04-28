@@ -17,6 +17,9 @@ public class test {
      * (1+(2+3)*(3+2)
      * 输出样例2：
      * -1
+     *
+     * @param str 待检查的表达式字符串
+     * @return 括号匹配时返回成对括号数量，否则返回 -1
      */
     public static int solution(String str) {
         int sum = 0;

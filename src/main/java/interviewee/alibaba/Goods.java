@@ -13,6 +13,14 @@ public class Goods{
         }
         System.out.println(getChooseNum(arr.length,arr));
     }
+
+    /**
+     * 根据商品序列长度和取值计算可选数量的草稿逻辑。
+     *
+     * @param N   商品数量
+     * @param arr 商品状态数组
+     * @return 可选择数量
+     */
     static int getChooseNum(int N, int[] arr){
         int sum = 0;
         if(N%2==0){

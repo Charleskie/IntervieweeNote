@@ -13,6 +13,12 @@ import java.util.Arrays;
  */
 public class pileBox {
 
+    /**
+     * 计算箱子可堆叠出的最大高度，先按宽度排序，再做类似最长递增子序列的动态规划。
+     *
+     * @param box 箱子数组，每个元素为 [宽, 深, 高]
+     * @return 能堆出的最大总高度
+     */
     public static int pileBox(int[][] box) {
         int m = box.length;
         if (m == 0) {

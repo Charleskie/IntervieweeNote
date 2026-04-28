@@ -4,8 +4,9 @@ public class maxProfit {
 
     /***
      * 买股票的最佳时机
-     * @param prices
-     * @return
+     *
+     * @param prices 每天的股票价格
+     * @return 一次买卖可获得的最大利润
      */
     public int maxProfit(int prices[]) {
         int minprice = Integer.MAX_VALUE;
@@ -22,8 +23,9 @@ public class maxProfit {
 
     /****
      * 跳跃游戏
-     * @param nums
-     * @return
+     *
+     * @param nums 每个位置可跳跃的最大步数
+     * @return 能否从起点跳到最后一个位置
      */
     public boolean canJump(int[] nums) {
         int maxJ = 0;
@@ -40,8 +42,9 @@ public class maxProfit {
 
     /***
      * 调到n-1的最小次数
-     * @param nums
-     * @return
+     *
+     * @param nums 每个位置可跳跃的最大步数
+     * @return 到达最后一个位置需要的最少跳跃次数
      */
     public int jump(int[] nums) {
         int maxJ = 0;
@@ -58,6 +61,12 @@ public class maxProfit {
         return step;
     }
 
+    /**
+     * 买股票的最佳时机的另一版实现，维护历史最低买入价和当前最大利润。
+     *
+     * @param prices 每天的股票价格
+     * @return 一次买卖可获得的最大利润
+     */
     public int maxProfits(int[] prices) {
         int max = 0;
         int minPrice = prices[0];

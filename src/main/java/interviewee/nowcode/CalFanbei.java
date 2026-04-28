@@ -25,6 +25,16 @@ public class CalFanbei {
 
     }
 
+    /**
+     * 递归估算把 a 增长到至少 b 所需的最少操作次数；当前递归分支仍是草稿。
+     *
+     * @param a   当前值
+     * @param b   目标下限
+     * @param p   单次增加量
+     * @param q   倍增系数
+     * @param num 已使用操作次数
+     * @return 操作次数
+     */
     private static int cal(int a, int b, int p, int q, int num){
         if(b - a <= p){
             num += 1;

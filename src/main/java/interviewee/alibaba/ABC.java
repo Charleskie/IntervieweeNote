@@ -21,6 +21,14 @@ public class ABC{
         ideas(n,ns,index);
         System.out.println(COUNT);
     }
+
+    /**
+     * 递归统计广告位排布方案，A 不能连续出现，B/C 可按各自步长放置。
+     *
+     * @param n     总长度
+     * @param ns    当前排布数组
+     * @param index 当前处理位置
+     */
     private static void ideas(int n, int[] ns, int index) {
         int[] temp = ns.clone();
         if(index>n-1){

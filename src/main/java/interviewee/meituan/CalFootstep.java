@@ -7,6 +7,13 @@ public class CalFootstep{
     public static void main(String[] args){
         System.out.println(calstep(4));
     }
+
+    /**
+     * 动态规划计算每次走 1 或 2 级台阶时，走上 n 级台阶的方案数。
+     *
+     * @param n 台阶数
+     * @return 走到第 n 级的方案数
+     */
     static int calstep(int n){
         int[] dp = new int[n+1];
         dp[0] = 1;

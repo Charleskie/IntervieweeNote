@@ -7,6 +7,12 @@ import java.util.Map;
 
 public class maxSubArray {
 
+    /**
+     * 枚举起点并向后累加，尝试求连续子数组的最大和。
+     *
+     * @param nums 原数组
+     * @return 连续子数组的最大和
+     */
     public int maxSubArray(int[] nums){
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
@@ -26,6 +32,12 @@ public class maxSubArray {
         return max;
     }
 
+    /**
+     * Kadane 动态规划算法，维护以当前位置结尾的最大子数组和。
+     *
+     * @param nums 原数组
+     * @return 连续子数组的最大和
+     */
     public int maxSubArray2(int[] nums) {
         int pre = 0, maxAns = nums[0];
         for (int x : nums) {

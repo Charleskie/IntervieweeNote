@@ -4,14 +4,24 @@ import java.util.List;
 
 public interface NestedInteger {
 
-    // @return true if this NestedInteger holds a single integer, rather than a nested list.
+    /**
+     * 判断当前对象是否保存单个整数，而不是嵌套列表。
+     *
+     * @return 保存单个整数时返回 true
+     */
     public boolean isInteger();
 
-    // @return the single integer that this NestedInteger holds, if it holds a single integer
-    // Return null if this NestedInteger holds a nested list
+    /**
+     * 获取当前对象保存的单个整数。
+     *
+     * @return 保存整数时返回该整数；保存嵌套列表时返回 null
+     */
     public Integer getInteger();
 
-    // @return the nested list that this NestedInteger holds, if it holds a nested list
-    // Return empty list if this NestedInteger holds a single integer
+    /**
+     * 获取当前对象保存的嵌套列表。
+     *
+     * @return 保存嵌套列表时返回列表；保存单个整数时返回空列表
+     */
     public List<NestedInteger> getList();
 }

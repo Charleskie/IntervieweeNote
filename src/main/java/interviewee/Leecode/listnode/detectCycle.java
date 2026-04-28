@@ -1,6 +1,12 @@
 package interviewee.Leecode.listnode;
 
 public class detectCycle {
+    /**
+     * 使用快慢指针检测链表是否有环，并在相遇后定位入环节点。
+     *
+     * @param head 链表头节点
+     * @return 存在环时返回入环节点，否则返回 null
+     */
     public static ListNode detectCycle(ListNode head) {
         ListNode node = head;
         ListNode slow = head;

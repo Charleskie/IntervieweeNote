@@ -7,6 +7,13 @@ import static interviewee.Algorithm.quicksort.quickSort;
 
 public class UniquePaths {
 
+    /**
+     * 计算 m x n 网格中从左上角到右下角的不同路径数，只允许向右或向下移动。
+     *
+     * @param m 行数
+     * @param n 列数
+     * @return 不同路径总数
+     */
     public int uniquePaths(int m, int n) {
         int[][] g = new int[m][n];
         for (int i = 0; i < m; i++) {
@@ -23,6 +30,12 @@ public class UniquePaths {
         return g[m-1][n-1];
     }
 
+    /**
+     * 计算从左上角到右下角的最小路径和，直接在 grid 上累加动态规划结果。
+     *
+     * @param grid 非负整数网格
+     * @return 最小路径和
+     */
     public int minPathSum(int[][] grid) {
         if(grid.length == 0 || grid[0].length == 0){
             return 0;
@@ -45,6 +58,12 @@ public class UniquePaths {
         return grid[grid.length - 1][grid[0].length-1];
     }
 
+    /**
+     * 合并重叠区间，复用快排先按区间起点排序。
+     *
+     * @param intervals 区间数组
+     * @return 合并后的区间数组
+     */
     public int[][] merge(int[][] intervals) {
         quickSort(intervals, 0, intervals.length-1);
         List<int[]> cp = new ArrayList<>();

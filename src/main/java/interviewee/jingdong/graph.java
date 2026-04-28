@@ -17,6 +17,14 @@ public class graph{
 
         }
     }
+
+    /**
+     * 判断输入边集合是否满足当前图约束；当前方法仍保留部分待补全逻辑。
+     *
+     * @param dot     边的起点数组
+     * @param nextdot 边的终点数组
+     * @return 满足约束时返回 true
+     */
     static boolean calgraph(int[] dot, int[] nextdot){
         Map<Integer, Integer> map = new HashMap<>();
         for (int x:nextdot){
@@ -35,6 +43,16 @@ public class graph{
         }
         return true;
     }
+
+    /**
+     * 计算两个点之间是否存在直接边的长度草稿。
+     *
+     * @param x       起点
+     * @param y       终点
+     * @param dot     边的起点数组
+     * @param nextdot 边的终点数组
+     * @return 存在直接边时返回 1，否则返回 0
+     */
     static int calLen(int x,int y,int[] dot, int[] nextdot){
         int L=0;
         for(int i=0;i<dot.length;i++){

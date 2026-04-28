@@ -26,10 +26,21 @@ class MyCalendar {
      */
 
     TreeMap<Integer, Integer> treeMap;
+
+    /**
+     * 初始化基于 TreeMap 的日历，key 为开始时间，value 为结束时间。
+     */
     public MyCalendar() {
         treeMap = new TreeMap<>();
     }
 
+    /**
+     * 尝试预订半开区间 [start, end)，如果与已有日程重叠则拒绝。
+     *
+     * @param start 日程开始时间
+     * @param end   日程结束时间
+     * @return 预订成功返回 true，发生重叠返回 false
+     */
     public boolean book(int start, int end) {
         Map.Entry<Integer, Integer> event = treeMap.floorEntry(start);
         if(event != null && event.getValue() > start) return false;

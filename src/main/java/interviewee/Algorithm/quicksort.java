@@ -4,6 +4,14 @@ import java.util.*;
 
 public class quicksort {
 
+    /**
+     * 以左边界元素为基准做一次降序分区，左侧放大于基准的元素，右侧放小于等于基准的元素。
+     *
+     * @param arr   待分区数组
+     * @param left  分区左边界
+     * @param right 分区右边界
+     * @return 基准元素分区后的下标
+     */
     public static int splitArr(int[] arr, int left, int right){
         int p = arr[left];
         int index = left + 1;
@@ -17,6 +25,14 @@ public class quicksort {
         return index-1;
     }
 
+    /**
+     * 使用 {@link #splitArr(int[], int, int)} 对数组做递归快排，当前实现按降序分区。
+     *
+     * @param a     待排序数组
+     * @param left  排序左边界
+     * @param right 排序右边界
+     * @return 排序后的原数组引用
+     */
     public static int[] sort(int[] a, int left, int right){
         if(left < right){
             int p = splitArr(a, left, a.length-1);
@@ -27,6 +43,14 @@ public class quicksort {
     }
 
 
+    /**
+     * 标准升序快速排序入口，对指定闭区间进行原地排序。
+     *
+     * @param arr   待排序数组
+     * @param left  排序左边界
+     * @param right 排序右边界
+     * @return 排序后的原数组引用
+     */
     private static int[] quickSort(int[] arr, int left, int right) {
         if (left < right) {
             int partitionIndex = partition(arr, left, right);
@@ -36,6 +60,14 @@ public class quicksort {
         return arr;
     }
 
+    /**
+     * 快排分区：以左边界为基准，将小于基准的元素移动到基准左侧。
+     *
+     * @param arr   待分区数组
+     * @param left  分区左边界
+     * @param right 分区右边界
+     * @return 基准元素归位后的下标
+     */
     private static int partition(int[] arr, int left, int right) {
         // 设定基准值（pivot）
         int pivot = left;
@@ -76,6 +108,12 @@ public class quicksort {
 
     }
 
+    /**
+     * 将数组向右旋转 k 位，借助复制后的列表窗口回填到原数组。
+     *
+     * @param nums 待旋转数组
+     * @param k    右移步数
+     */
     public static void rotate(int[] nums, int k) {
         List<Integer> list = new ArrayList<>();
         for(int i: nums){
@@ -98,6 +136,12 @@ public class quicksort {
 
     }
 
+    /**
+     * 合并重叠区间：先按区间起点排序，再线性扫描合并。
+     *
+     * @param intervals 区间数组，每个元素形如 [start, end]
+     * @return 合并后的区间数组
+     */
     public static int[][] merge(int[][] intervals) {
         quickSort(intervals, 0, intervals.length-1);
         List<int[]> cp = new ArrayList<>();
@@ -113,6 +157,13 @@ public class quicksort {
         return cp.toArray(new int[cp.size()][]);
     }
 
+    /**
+     * 按二维数组每行的第一个元素做升序快速排序。
+     *
+     * @param arr   待排序区间数组
+     * @param left  排序左边界
+     * @param right 排序右边界
+     */
     public static void quickSort(int[][] arr, int left, int right){
         if(left<right){
             int p = left;
@@ -130,6 +181,13 @@ public class quicksort {
         }
     }
 
+    /**
+     * 交换二维数组中的两行。
+     *
+     * @param arr   二维数组
+     * @param left  第一个行下标
+     * @param right 第二个行下标
+     */
     public static void swap(int[][] arr, int left, int right){
         int[] temp = arr[left];
         arr[left] = arr[right];
@@ -137,6 +195,13 @@ public class quicksort {
     }
 
 
+    /**
+     * 另一版原地升序快排实现，同样以左边界元素为基准做递归分区。
+     *
+     * @param arr   待排序数组
+     * @param left  排序左边界
+     * @param right 排序右边界
+     */
     public static void quickSortKim(int[] arr, int left, int right){
         if(left< right){
             int p = left;
@@ -154,12 +219,25 @@ public class quicksort {
         }
     }
 
+    /**
+     * 交换数组中的两个位置。
+     *
+     * @param arr 待交换数组
+     * @param i   第一个下标
+     * @param j   第二个下标
+     */
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
+    /**
+     * 计算除自身以外数组的乘积，使用前缀乘积和后缀乘积避免除法。
+     *
+     * @param nums 原数组
+     * @return 每个位置除自身外其他元素的乘积
+     */
     public static int[] productExceptSelf(int[] nums) {
         int[] num = new int[nums.length];
         num[0] = 1;
@@ -175,6 +253,13 @@ public class quicksort {
         return num;
     }
 
+    /**
+     * 判断两个字符串是否逐字符完全相同。
+     *
+     * @param a 第一个字符串
+     * @param b 第二个字符串
+     * @return 长度相同且所有字符一致时返回 true
+     */
     public boolean isCode(String a, String b){
         if(a.length() != b.length()){
             return false;
@@ -190,6 +275,12 @@ public class quicksort {
         return true;
     }
 
+    /**
+     * 将字符串按当前相等判断进行分组，目标意图是聚合同一类字符串。
+     *
+     * @param strs 待分组字符串数组
+     * @return 分组后的字符串列表
+     */
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> group = new ArrayList<>();
         for (int i = 0; i < strs.length; i++) {

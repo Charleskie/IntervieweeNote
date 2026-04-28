@@ -3,6 +3,12 @@ package interviewee.Leecode;
 import interviewee.Leecode.listnode.ListNode;
 
 public class MergeKLinkNode {
+    /**
+     * 逐组合并 K 个升序链表。
+     *
+     * @param lists 升序链表头节点数组
+     * @return 合并后的升序链表头节点
+     */
     public static ListNode mergeKLists(ListNode[] lists) {
         if(lists == null || lists.length == 0){
             return null;
@@ -18,6 +24,13 @@ public class MergeKLinkNode {
 
     }
 
+    /**
+     * 递归合并两个升序链表。
+     *
+     * @param l1 第一个升序链表
+     * @param l2 第二个升序链表
+     * @return 合并后的升序链表
+     */
     public static ListNode merge(ListNode l1, ListNode l2){
         if(l1 == null) return l2;
         if(l2 == null) return l1;

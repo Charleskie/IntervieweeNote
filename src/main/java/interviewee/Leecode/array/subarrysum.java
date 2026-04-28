@@ -4,9 +4,10 @@ public class subarrysum {
 
     /***
      * 和为 K 的子数组
-     * @param nums
-     * @param k
-     * @return
+     *
+     * @param nums 原数组
+     * @param k    目标和
+     * @return 和等于 k 的连续子数组数量
      */
     public int subarraySum(int[] nums, int k) {
         int count = 0;
@@ -24,8 +25,9 @@ public class subarrysum {
 
     /****
      * 除自身以外数组的乘积
-     * @param nums
-     * @return
+     *
+     * @param nums 原数组
+     * @return 每个位置除自身外其他元素的乘积
      */
     public int[] productExceptSelf(int[] nums) {
         int[] num = new int[nums.length];

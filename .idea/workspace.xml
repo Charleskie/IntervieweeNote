@@ -4,71 +4,102 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa794d3-622b-400e-b152-01cf9640716b" name="Default" comment="算法复习">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/arr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/matchChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="caa794d3-622b-400e-b152-01cf9640716b" name="Default" comment="daily practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/ArrayInterviewAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/DynamicProgrammingAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/LinkedListInterviewAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/SortAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/StringInterviewAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/MinDistanceNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/MinTimeReach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/StringSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/CallLogCounterBolt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/CallLogCreatorBolt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/FakeCallLogReaderSpout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/meituan/wangsheng/LogAnalyserStorm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/NestedInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/NestedInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/NestedIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/NestedIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/PathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/sameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/TreeNode/sameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/Rotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/mergearr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/mergearr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/numberOfWeeks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/numberOfWeeks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/subarrysum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/subarrysum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/dp/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/dp/ClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/dp/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/dp/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/invertTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/invertTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/leastInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/leastInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/ListNode2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/ListNode2Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/deleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/deleteDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/detectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/detectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/removeNthFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/sortlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/sortlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/maxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/maxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/minCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/minCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/other/WordDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/other/WordDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/pileBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/pileBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/postorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/postorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/preorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/qe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/qe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/queensAttacktheKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/queensAttacktheKing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/SpecialWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/SpecialWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/duxiaoman/boxandmatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/reorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/reorderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/ReportSpam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/ReportSpam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/string/string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/IntToroman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/IntToroman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/MostCompetitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/MostCompetitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/StringAllMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/StringAllMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/ABC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/arr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/iqiyi/luckyId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/iqiyi/luckyId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/likeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/jingdong/likeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/Exception/BankDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/Exception/BankDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/library/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/library/Time.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/library/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/library/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Myschool/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Myschool/test/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/CallLogCounterBolt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/CallLogCreatorBolt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/FakeCallLogReaderSpout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/meituan/wangsheng/LogAnalyserStorm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/Algorithm/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/Algorithm/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/CalLotteryBonus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/CalLotteryBonus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/alibaba/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/alibaba/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/alibaba/SpecialWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/alibaba/SpecialWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/luckyId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/iqiyi/luckyId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/jingdong/graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/jingdong/graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/jingdong/likeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/jingdong/likeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/meituan/meituan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/meituan/meituan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/meituan/tu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/meituan/tu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/shortestString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/shortestString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/specialphonenumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/specialphonenumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/t4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/pinduoduo/t4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/test$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/toutiao/containsDoubleString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/toutiao/containsDoubleString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/HelpTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/findHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/findHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/wangyi/wangyibidata1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/wangyi/wangyibidata1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/interviewee/xiecheng/checkticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/interviewee/xiecheng/checkticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/meituan/CalFootstep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/meituan/CalFootstep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/meituan/CalLotteryBonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/meituan/CalLotteryBonus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/meituan/tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/meituan/tu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/nowcode/CalFanbei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/nowcode/CalFanbei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/shortestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/shortestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/specialphonenumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/specialphonenumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/t4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/t4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/shunfeng/delivergoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/shunfeng/delivergoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/toutiao/containsDoubleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/toutiao/containsDoubleString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/wangyi/HelpTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/wangyi/HelpTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/wangyi/findHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/wangyi/findHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interviewee/wangyi/wangyibidata1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interviewee/wangyi/wangyibidata1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/matchChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matchChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,212 +108,55 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>already_choose</find>
-      <find>chooseNumber</find>
-      <find>scanner</find>
-      <find>in</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>choosed</replace>
-      <replace>choseNum</replace>
-      <replace>sc</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Charleskie&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Charleskie/IntervieweeNote.git&quot;,
-    &quot;accountId&quot;: &quot;d5cfad18-4cf7-47d7-925b-07b8dbc759d8&quot;
-  }
-}</component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/meituan.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/meituan/meituan.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/meituan/tu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/alibaba/ABC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/KMP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/wangyi/findHome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/wangyi/HelpTicket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/jingdong/likeString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/jingdong/graph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/shortestString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/meituan/CalFootstep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/CalLotteryBonus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/SQL/TransLineToCol.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Myschool/test/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/iqiyi/food.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/iqiyi/luckyId.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/Algorithm/GCD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalender.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="50" />
-    <option name="width" value="1605" />
-    <option name="height" value="946" />
-  </component>
-  <component name="ProjectId" id="2AIYBQqwSYySiiJ5Fp4LnpWZMnv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewee" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewee" type="462c0819:PsiDirectoryNode" />
-              <item name="Leecode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meituan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntervieweeNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="interviewee" type="462c0819:PsiDirectoryNode" />
-              <item name="Leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCalender.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="3Cy5AapkBzsT3UN4v3GR79nMmQV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Permutation.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.arr.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.detectCycle.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.matchChars.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.maxDistance.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Debug&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LongestCommonSubstring.executor": "Run",
+    "Application.MinDistanceNums.executor": "Run",
+    "Application.Rotate.executor": "Run",
+    "Application.SortAlgorithms.executor": "Run",
+    "Application.StringAllMatch.executor": "Run",
+    "Maven.meituan [compile].executor": "Run",
+    "Maven.meituan [verify].executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4413793",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.matchChars">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.string.Permutation" />
+}]]></component>
+  <component name="RunManager" selected="Application.SortAlgorithms">
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.string.LongestCommonSubstring" />
       <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interviewee.Leecode.string.*" />
@@ -293,38 +167,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.arr" />
+    <configuration name="MinDistanceNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.array.MinDistanceNums" />
       <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interviewee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="matchChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matchChars" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maxDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.array.maxDistance" />
-      <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="interviewee.Leecode.array.*" />
@@ -335,651 +180,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.array.Rotate" />
       <module name="meituan" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewee.Leecode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <configuration name="SortAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Algorithm.SortAlgorithms" />
+      <module name="meituan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewee.Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
+    <configuration name="StringAllMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewee.Leecode.tianyiyun.StringAllMatch" />
+      <module name="meituan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interviewee.Leecode.tianyiyun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.matchChars" />
-      <item itemvalue="应用程序.arr" />
-      <item itemvalue="应用程序.test" />
-      <item itemvalue="应用程序.maxDistance" />
-      <item itemvalue="应用程序.Permutation" />
+      <item itemvalue="Application.SortAlgorithms" />
+      <item itemvalue="Application.LongestCommonSubstring" />
+      <item itemvalue="Application.MinDistanceNums" />
+      <item itemvalue="Application.StringAllMatch" />
+      <item itemvalue="Application.Rotate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.matchChars" />
-        <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.arr" />
-        <item itemvalue="应用程序.Permutation" />
-        <item itemvalue="应用程序.maxDistance" />
+        <item itemvalue="Application.SortAlgorithms" />
+        <item itemvalue="Application.LongestCommonSubstring" />
+        <item itemvalue="Application.MinDistanceNums" />
+        <item itemvalue="Application.StringAllMatch" />
+        <item itemvalue="Application.Rotate" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="caa794d3-622b-400e-b152-01cf9640716b" name="Default" comment="" />
-      <created>1536231699592</created>
+      <created>1777344829349</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536231699592</updated>
-      <workItem from="1536231707279" duration="3887000" />
-      <workItem from="1536320239852" duration="11167000" />
-      <workItem from="1536490819397" duration="5872000" />
-      <workItem from="1536655973679" duration="31752000" />
-      <workItem from="1575170762417" duration="1120000" />
-      <workItem from="1575199305626" duration="2166000" />
-      <workItem from="1576163464219" duration="1831000" />
-      <workItem from="1591021917448" duration="719000" />
-      <workItem from="1591025683643" duration="619000" />
-      <workItem from="1654614215382" duration="4536000" />
-      <workItem from="1654698459892" duration="947000" />
-      <workItem from="1654699434677" duration="11350000" />
-      <workItem from="1655303435956" duration="629000" />
-      <workItem from="1655304282096" duration="245000" />
-      <workItem from="1655304600870" duration="680000" />
-      <workItem from="1655476885437" duration="13874000" />
-      <workItem from="1717381055248" duration="4609000" />
-      <workItem from="1718189217735" duration="3700000" />
+      <updated>1777344829349</updated>
     </task>
-    <task id="LOCAL-00001" summary="GCD算法">
-      <created>1575200714014</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1575200714014</updated>
-    </task>
-    <task id="LOCAL-00002" summary="calender">
-      <created>1654616711263</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654616711263</updated>
-    </task>
-    <task id="LOCAL-00003" summary="calender">
-      <created>1654697694318</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654697694318</updated>
-    </task>
-    <task id="LOCAL-00004" summary="quick sort">
-      <created>1686668500786</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1686668500786</updated>
-    </task>
-    <task id="LOCAL-00005" summary="quick sort">
-      <created>1686754286418</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1686754286418</updated>
-    </task>
-    <task id="LOCAL-00006" summary="quick sort">
-      <created>1692428998063</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1692428998063</updated>
-    </task>
-    <task id="LOCAL-00007" summary="算法复习">
-      <created>1698160462999</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1698160463000</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63669000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="43" y="50" width="1605" height="946" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49421486" visible="true" weight="0.15857606" />
-      <window_info id="Structure" order="1" weight="0.24962178" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5057851" side_tool="true" weight="0.14692557" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49673203" weight="0.24058323" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39630836" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49773464" visible="true" weight="0.33415535" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5022654" side_tool="true" visible="true" weight="0.33415535" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32681867" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="GCD算法" />
-    <MESSAGE value="calender" />
-    <MESSAGE value="quick sort" />
-    <MESSAGE value="算法复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法复习" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java</url>
-          <line>10</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/iqiyi/luckyId.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/GCD.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/addTwoNumbers.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MergeKLinkNode.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java</url>
-          <line>168</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java</url>
-          <line>174</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/quicksort.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/RevertListNode.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/deleteDuplicates.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/listnode/sortlist.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxSubArray.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxSubArray.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/tianyiyun/MostCompetitive.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/other/WordDistance.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/array/maxDistance.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java</url>
-          <line>15</line>
-          <properties class="interviewee.alibaba.Goods" method="getChooseNum">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/interviewee/wangyi/HelpTicket.java</url>
-          <line>64</line>
-          <properties class="interviewee.wangyi.getTicket">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/SpecialWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/alibaba/ABC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/jingdong/likeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/jingdong/graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/toutiao/containsDoubleString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Myschool/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/CalLotteryBonus.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/SQL/TransLineToCol.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/wangyi/HelpTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/shortestString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/specialphonenumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/wangyi/wangyibidata1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/meituan/CalFootstep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/meituan/meituan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/meituan/tu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/wangyi/findHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/iqiyi/luckyId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/pinduoduo/t4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/iqiyi/food.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/Algorithm/GCD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/giveOutCandy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="391" column="21" selection-start-line="391" selection-start-column="21" selection-end-line="391" selection-end-column="21" />
-          <folding>
-            <element signature="e#25265#25266#0" expanded="true" />
-            <element signature="e#25319#25320#0" expanded="true" />
-            <element signature="e#25966#25967#0" expanded="true" />
-            <element signature="e#26022#26023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalenderV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interviewee/Leecode/MyCalender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.10.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>meituan</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.0.13</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

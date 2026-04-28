@@ -24,11 +24,22 @@ class Node{
 class MyCalendarV2 {
     private int N;
     private Node root;
+
+    /**
+     * 初始化动态线段树日历，覆盖时间范围 [0, 1e9]。
+     */
     public MyCalendarV2() {
         N = (int)1e9;
         root = new Node();
     }
 
+    /**
+     * 尝试预订半开区间 [start, end)，线段树中已有覆盖则拒绝。
+     *
+     * @param start 日程开始时间
+     * @param end   日程结束时间
+     * @return 预订成功返回 true，发生重叠返回 false
+     */
     public boolean book(int start, int end) {
         int dep = query(root, 0, N, start, end-1);
         if(dep>=1) return false;
@@ -36,6 +47,16 @@ class MyCalendarV2 {
         return true;
     }
 
+    /**
+     * 查询线段树中指定区间的最大预订次数。
+     *
+     * @param root 当前线段树节点
+     * @param lr   当前节点覆盖区间左端
+     * @param rr   当前节点覆盖区间右端
+     * @param l    查询区间左端
+     * @param r    查询区间右端
+     * @return 查询区间内的最大覆盖次数
+     */
     private int query(Node root, int lr, int rr, int l, int r){
         if(l<=lr && rr<=r) return root.value;
         pushdown(root);
@@ -47,6 +68,15 @@ class MyCalendarV2 {
         return ans;
     }
 
+    /**
+     * 在线段树上给指定区间的预订次数加一。
+     *
+     * @param root 当前线段树节点
+     * @param lr   当前节点覆盖区间左端
+     * @param rr   当前节点覆盖区间右端
+     * @param l    更新区间左端
+     * @param r    更新区间右端
+     */
     private void update(Node root, int lr, int rr, int l, int r){
         if(l<=lr && rr<=r){
             root.value++;
@@ -62,10 +92,20 @@ class MyCalendarV2 {
         pushup(root);
     }
 
+    /**
+     * 根据左右子节点的覆盖次数刷新当前节点最大值。
+     *
+     * @param root 当前线段树节点
+     */
     private void pushup(Node root){
         root.value = Math.max(root.leftchild.value, root.rightchild.value);
     }
 
+    /**
+     * 懒标记下推，并在需要时动态创建左右子节点。
+     *
+     * @param root 当前线段树节点
+     */
     private void pushdown(Node root){
         if(root.leftchild == null) root.leftchild = new Node();
         if(root.rightchild == null) root.rightchild = new Node();

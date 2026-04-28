@@ -19,6 +19,12 @@ public class findHome {
         }
     }
 
+    /**
+     * 枚举选择 k 个位置后的所有情况，并统计满足左右为 1、中间为 0 的位置数最小值和最大值。
+     *
+     * @param n 总位置数
+     * @param k 需要选择的位置数
+     */
     private static void getHome(int n, int k) {
         if(n<=k){
             System.out.println("0 0");
@@ -47,6 +53,12 @@ public class findHome {
 
     }
 
+    /**
+     * 统计数组中形如 1,0,1 的中心位置数量。
+     *
+     * @param a 只包含 0/1 标记的数组
+     * @return 满足条件的中心位置数量
+     */
     private static int numbers(int[] a) {
         int len = a.length;
         if(len==0) return -1;
@@ -61,6 +73,15 @@ public class findHome {
 
     static ArrayList<Set<Integer>> OUT = new ArrayList<>();
 
+    /**
+     * 从数组 a 的指定范围中递归选择 choose 个元素，保存所有组合。
+     *
+     * @param a       候选元素列表
+     * @param start   可选择范围起点
+     * @param end     可选择范围终点
+     * @param choose  还需要选择的数量
+     * @param choosed 当前已选择元素集合
+     */
     static void choseNum(ArrayList<Integer> a,int start,int end,int choose,Set<Integer> choosed){
         if(choose==0){
             Set<Integer> temp = new HashSet<Integer>(choosed);

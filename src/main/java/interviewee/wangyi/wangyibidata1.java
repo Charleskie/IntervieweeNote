@@ -31,6 +31,13 @@ public class wangyibidata1{
             System.out.println(index1.get(i)+ " "+ index2.get(i));
         }
     }
+
+    /**
+     * 查找当前数组最大值所在的下标。
+     *
+     * @param arr 原数组
+     * @return 最大值下标
+     */
     public static int GetMax(int[] arr){
         int Max = 0;
         for(int i=0;i<arr.length;i++){
@@ -39,6 +46,13 @@ public class wangyibidata1{
         }
         return Max;
     }
+
+    /**
+     * 查找当前数组最小值所在的下标。
+     *
+     * @param arr 原数组
+     * @return 最小值下标
+     */
     public static int GetMin(int[] arr){
         int Min = 0;
         for(int i=0;i<arr.length;i++){
@@ -47,6 +61,13 @@ public class wangyibidata1{
         }
         return Min;
     }
+
+    /**
+     * 对数组排序后返回最大值和最小值，格式为 "max,min"。
+     *
+     * @param arr 原数组
+     * @return 最大值和最小值组成的字符串
+     */
     public static String CalDiff(int[] arr){
         for(int n=0;n< arr.length;n++){
             for(int i=0;i<arr.length-1-n;i++){

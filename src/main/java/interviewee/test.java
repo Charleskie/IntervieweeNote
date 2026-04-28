@@ -12,6 +12,10 @@ public class test{
         t.run();
         System.out.print("ping");
     }
+
+    /**
+     * 输出线程执行顺序示例中的 pong。
+     */
     static void pong() {
         System.out.print("pong");
     }

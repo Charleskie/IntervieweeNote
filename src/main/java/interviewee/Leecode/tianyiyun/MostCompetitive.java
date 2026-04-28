@@ -12,6 +12,13 @@ public class MostCompetitive {
      * 在子序列 a 和子序列 b 第一个不相同的位置上，如果 a 中的数字小于 b 中对应的数字，那么我们称子序列 a 比子序列 b（相同长度下）更具 竞争力 。 例如，[1,3,4] 比 [1,3,5] 更具竞争力，在第一个不相同的位置，也就是最后一个位置上， 4 小于 5 。
      */
 
+    /**
+     * 用单调栈删除 n-k 个元素，得到字典序最小的长度 k 子序列。
+     *
+     * @param nums 原数组
+     * @param k    子序列长度
+     * @return 最具竞争力的子序列
+     */
     public int[] mostCompetitive(int[] nums, int k) {
         // 维护一个长度为 k 的单调递增的栈
         int n = nums.length;

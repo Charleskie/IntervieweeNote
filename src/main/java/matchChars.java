@@ -4,8 +4,13 @@ import java.util.List;
 import java.util.Map;
 
 public class matchChars {
-    //A 字符串数组
-    //B 字符串数组
+    /**
+     * 从 A 中筛出能够覆盖 B 中每个字符串字符需求的单词。
+     *
+     * @param A 候选单词数组
+     * @param B 约束单词数组
+     * @return 满足所有约束的候选单词列表
+     */
     public static List<String> sout(String[] A, String[] B){
         List<String> out = new ArrayList<>();
         for (int i = 0; i < A.length; i++) {
@@ -26,6 +31,13 @@ public class matchChars {
         return out;
     }
 
+    /**
+     * 判断字符串 a 中是否包含字符数组 bc 所要求的字符数量。
+     *
+     * @param a  候选字符串
+     * @param bc 需要覆盖的字符数组
+     * @return 当前实现只要某个字符数量满足就返回 true
+     */
     public static boolean containsAB(String a, char[] bc){
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < bc.length; i++) {

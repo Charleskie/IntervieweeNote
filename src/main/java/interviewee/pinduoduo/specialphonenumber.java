@@ -29,6 +29,13 @@ public class specialphonenumber{
         }else {
         }
     }
+
+    /**
+     * 计算号码字符的平均值，用于评估调整成本的草稿逻辑。
+     *
+     * @param PhoneArr 手机号码字符数组
+     * @return 字符数值的平均值
+     */
     public static Double MeanValue(char[] PhoneArr){
         Double MeanValue = 0.0;
         for(int n:PhoneArr){
@@ -40,8 +47,10 @@ public class specialphonenumber{
 
     /**
      * 检验是否已经是靓号
-     * @param PhoneArr
-     * @return
+     *
+     * @param PhoneArr 号码数字数组
+     * @param K        至少需要相同的数字个数
+     * @return 已满足靓号条件时返回 true
      */
     public static boolean AlreadyExist(int[] PhoneArr, int K){
         boolean flag = false;
@@ -55,9 +64,10 @@ public class specialphonenumber{
     //TODO 不是靓号，哪种方式转换成靓号，有几种转换方式，输出字典序最小的一种
     /**
      * 计算存在几种靓号
-     * @param PhoneArr
-     * @param K
-     * @return
+     *
+     * @param PhoneArr 号码数字数组
+     * @param K        至少需要相同的数字个数
+     * @return 满足靓号条件的数字种类数
      */
     public static int ExistNum(int[] PhoneArr, int K){
         int ExistNum = 0;
@@ -66,6 +76,13 @@ public class specialphonenumber{
         }
         return ExistNum;
     }
+
+    /**
+     * 统计数组中数字出现次数的草稿方法。
+     *
+     * @param PhoneArr 号码数字数组
+     * @return 当前草稿返回统计结果占位值
+     */
     public static int CountNumInArr(int[] PhoneArr){
         Map<Integer,Integer> CountMap = new HashMap<>();
         int count = 0;
@@ -74,6 +91,12 @@ public class specialphonenumber{
         }
         return count;
     }
+
+    /**
+     * 计算把号码调整为靓号所需花费的草稿方法。
+     *
+     * @return 当前草稿固定返回 0
+     */
     public int calmoney(){
         return 0;
     }

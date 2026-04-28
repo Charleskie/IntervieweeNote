@@ -2,6 +2,12 @@ package interviewee.Leecode.listnode;
 
 public class deleteDuplicates {
 
+    /**
+     * 删除升序链表中所有重复出现的节点，只保留原链表中没有重复的值。
+     *
+     * @param head 升序链表头节点
+     * @return 去重后的链表头节点
+     */
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
             return head;

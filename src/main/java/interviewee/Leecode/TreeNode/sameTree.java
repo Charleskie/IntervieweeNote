@@ -2,6 +2,13 @@ package interviewee.Leecode.TreeNode;
 
 public class sameTree {
 
+    /**
+     * 递归判断两棵二叉树的结构和值是否完全相同。
+     *
+     * @param p 第一棵树根节点
+     * @param q 第二棵树根节点
+     * @return 结构和值都相同时返回 true
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null){
             return true;

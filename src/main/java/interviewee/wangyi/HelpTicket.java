@@ -58,6 +58,13 @@ public class HelpTicket {
 class getTicket{
     int aim;
     int money;
+
+    /**
+     * 创建一条可收买投票记录。
+     *
+     * @param aim   当前支持的候选人
+     * @param money 收买所需花费
+     */
     public getTicket(int aim,int money){
         this.aim=aim;
         this.money=money;

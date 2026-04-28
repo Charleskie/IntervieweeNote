@@ -8,9 +8,10 @@ public class ReportSpam {
 
     /***
      * 举报垃圾信息
-     * @param message
-     * @param bannedWords
-     * @return
+     *
+     * @param message     消息分词结果
+     * @param bannedWords 禁用词列表
+     * @return 消息中命中至少两个禁用词时返回 true
      */
     public boolean reportSpam(String[] message, String[] bannedWords) {
         int flag = 0;

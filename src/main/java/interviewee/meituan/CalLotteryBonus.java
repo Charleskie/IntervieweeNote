@@ -61,8 +61,9 @@ public class CalLotteryBonus{
 
     /***
      * 取每组最大的倍率，组成数组
-     * @param input
-     * @return
+     *
+     * @param input 逗号分隔的赔率字符串
+     * @return 当前比赛选项中的最大赔率
      */
     static double getMaxSP(String input){
         ArrayList<Double> arr = new ArrayList<>();
@@ -79,6 +80,15 @@ public class CalLotteryBonus{
         }
         return Max;
     }
+
+    /**
+     * 根据选择关数尝试生成赔率组合；当前实现用于构造组合草稿。
+     *
+     * @param list   固定长度的组合占位列表
+     * @param Max    每场比赛的最大赔率列表
+     * @param choose 还需要选择的场次数量
+     * @return 填充后的组合列表
+     */
     static List getList(List list,ArrayList<Double> Max, int choose){
         if(choose==0){
             return list;
@@ -94,6 +104,12 @@ public class CalLotteryBonus{
         return list;
     }
 
+    /**
+     * 初始化指定关数的赔率组合并输出组合结果。
+     *
+     * @param Max    每场比赛的最大赔率列表
+     * @param choose 选择的关数
+     */
     static void doit(ArrayList<Double> Max, int choose) {
         if (choose <= 0 || Max == null) {
             return;

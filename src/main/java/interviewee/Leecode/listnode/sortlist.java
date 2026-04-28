@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class sortlist {
+    /**
+     * 将链表节点值拷贝到数组中排序，再按排序结果重建链表。
+     *
+     * @param head 原链表头节点
+     * @return 按节点值升序排列的新链表头节点
+     */
     public ListNode sortList(ListNode head) {
         if(head == null) return head;
         ListNode node = head;

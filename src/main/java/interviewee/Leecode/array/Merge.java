@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Merge {
 
+    /**
+     * 合并重叠区间：先按区间起点排序，再依次合并相交区间。
+     *
+     * @param intervals 区间数组
+     * @return 合并后的区间数组
+     */
     public int[][] merge(int[][] intervals) {
         quickSort(intervals, 0, intervals.length-1);
         List<int[]> cp = new ArrayList<>();
@@ -20,6 +26,13 @@ public class Merge {
         return cp.toArray(new int[cp.size()][]);
     }
 
+    /**
+     * 按每个区间的起点对二维数组做快速排序。
+     *
+     * @param arr   待排序区间数组
+     * @param left  排序左边界
+     * @param right 排序右边界
+     */
     public void quickSort(int[][] arr, int left, int right){
         if(left<right){
             int p = left;
@@ -37,6 +50,13 @@ public class Merge {
         }
     }
 
+    /**
+     * 交换二维数组中的两行。
+     *
+     * @param arr   二维数组
+     * @param left  第一个行下标
+     * @param right 第二个行下标
+     */
     public void swap(int[][] arr, int left, int right){
         int[] temp = arr[left];
         arr[left] = arr[right];

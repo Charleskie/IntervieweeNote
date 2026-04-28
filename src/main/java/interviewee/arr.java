@@ -7,6 +7,9 @@ import java.util.List;
 public class arr {
     /***
      * 给定一个一维整数数组，找出差值最小的一组或者多组数，例如输入[2,1,4,7,5,9]，输出[2,1],[4,5]
+     *
+     * @param arr 待查找数组
+     * @return 排序后相邻差值最小的数对集合
      */
     public static List<Integer[]> getdiffmin(int[] arr){
         Arrays.sort(arr);

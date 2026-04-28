@@ -23,6 +23,13 @@ public class delivergoods{
 
     }
 
+    /**
+     * 根据较大规格箱子的占用情况，扣减可被填充的小规格货物数量。
+     *
+     * @param index 当前处理的规格下标
+     * @param arr   各规格货物数量
+     * @return 扣减后的货物数量数组
+     */
     static int[] change(int index, int[] arr){
         if(index == 5){
             if(arr[0]>=(index*11)){

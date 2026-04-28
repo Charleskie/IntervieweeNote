@@ -21,6 +21,14 @@ public class tu {
         System.out.println(res);
     }
 
+    /**
+     * 在最多把 k 个 0 变成 1 的情况下，寻找最长连续 1 的长度。
+     *
+     * @param data 原 0/1 数组
+     * @param k    最多可翻转的 0 的个数
+     * @param zero 数组中 0 的总数
+     * @return 翻转后可得到的最长连续 1 长度
+     */
     private static int findLongest(int[] data, int k, int zero) {
         if(data.length==0||k<0) return 0;
         if(k>=zero){
@@ -62,6 +70,7 @@ public class tu {
     static ArrayList<Set<Integer>> CH = new ArrayList<Set<Integer>>();
     /**
      * 随机选择
+     *
      * @param a 数据源
      * @param start 开始的位置
      * @param end  结束的位置
@@ -85,8 +94,9 @@ public class tu {
 
     /**
      * 找最长连续1
-     * @param data
-     * @return
+     *
+     * @param data 0/1 数组
+     * @return 最长连续 1 的长度
      */
     private static int longestOne(int[] data) {
         int[] use = new int[data.length+1];

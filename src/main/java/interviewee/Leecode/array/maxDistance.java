@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class maxDistance {
+    /**
+     * 暴力枚举不同数组之间首尾元素的差值，求最大距离。
+     *
+     * @param arrays 已按升序排列的数组列表
+     * @return 从两个不同数组中各取一个数可得到的最大绝对差
+     */
     public int maxDistance1(List<List<Integer>> arrays) {
         List<Integer> list = arrays.get(0);
         int max = Integer.MIN_VALUE;
@@ -20,6 +26,12 @@ public class maxDistance {
         return max;
     }
 
+    /**
+     * 线性扫描求最大距离，维护已遍历数组的全局最小首元素和最大尾元素。
+     *
+     * @param arrays 已按升序排列的数组列表
+     * @return 从两个不同数组中各取一个数可得到的最大绝对差
+     */
     public int maxDistance(List<List<Integer>> arrays) {
         List<Integer> list = arrays.get(0);
         int max = Integer.MIN_VALUE;

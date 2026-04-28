@@ -16,6 +16,11 @@ import interviewee.Leecode.listnode.ListNode;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class reorderList {
+    /**
+     * 递归重排链表为 L0 -> Ln -> L1 -> Ln-1 的顺序。
+     *
+     * @param head 链表头节点
+     */
     public static void reorderList(ListNode head) {
         if(head == null || head.next == null){
             return;

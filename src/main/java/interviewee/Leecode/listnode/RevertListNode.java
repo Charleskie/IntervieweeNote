@@ -2,6 +2,12 @@ package interviewee.Leecode.listnode;
 
 public class RevertListNode {
 
+    /**
+     * 迭代反转整个单链表。
+     *
+     * @param head 原链表头节点
+     * @return 反转后的新头节点
+     */
     public ListNode reverseList(ListNode head) {
 
         // 也可以使用递归反转一个链表
@@ -30,6 +36,12 @@ public class RevertListNode {
     }
 
 
+    /**
+     * 静态版本的链表整体反转方法，逐个节点修改 next 指向。
+     *
+     * @param node 原链表头节点
+     * @return 反转后的新头节点
+     */
     public static ListNode revert(ListNode node){
         ListNode pre = null;
         ListNode cur = node;
@@ -42,6 +54,14 @@ public class RevertListNode {
         return pre;
     }
 
+    /**
+     * 反转链表中从 left 到 right 的闭区间，使用头插法把区间内节点依次移到子链表头部。
+     *
+     * @param head  原链表头节点
+     * @param left  反转区间左端位置，从 1 开始
+     * @param right 反转区间右端位置，从 1 开始
+     * @return 局部反转后的链表头节点
+     */
     public ListNode reverseBetween(ListNode head, int left, int right) {
 
         ListNode result = new ListNode(-1);

@@ -21,6 +21,11 @@ public class shortestString {
         sc.close();
     }
 
+    /**
+     * 根据节点数量输出当前图判定结果；当前实现为按样例分支输出的草稿。
+     *
+     * @param N 节点数量
+     */
     private static void calgraph(int N) {
         if(N == 5) {
             System.out.println("Yes");

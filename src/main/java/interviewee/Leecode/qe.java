@@ -6,7 +6,17 @@ public class qe {
     // N = String.valueOf(n)的长度
 //O(N)time O(N)space
 
+        /**
+         * 寻找由相同数字组成、严格大于 n 的最小整数。
+         *
+         * @param n 原整数
+         * @return 下一个更大排列对应的整数；不存在时返回 -1
+         */
         public static int nextGreaterElement(int n) {
+            /*
+             * 寻找由相同数字组成、严格大于 n 的最小整数：
+             * 从右向左找到第一个上升拐点，交换成右侧更大的最小数字，再排序后缀。
+             */
             //2^32 < 10^10
             int[] t = new int[10];
             int l = t.length;

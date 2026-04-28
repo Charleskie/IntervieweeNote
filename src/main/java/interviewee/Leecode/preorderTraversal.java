@@ -12,6 +12,13 @@ import java.util.Stack;
  */
 public class preorderTraversal {
     List<Integer> preorder = new ArrayList<>();
+
+    /**
+     * 使用栈收集二叉树前序遍历结果。
+     *
+     * @param root 二叉树根节点
+     * @return 前序遍历节点值列表
+     */
     public List<Integer> preorderTraversal(TreeNode root) {
         if(root == null){
             return preorder;
@@ -72,6 +79,8 @@ public class preorderTraversal {
 
     /***
      * 层序遍历
+     *
+     * @param root 二叉树根节点
      */
     public static void levelOrder(TreeNode root){
         LinkedList<TreeNode> queue = new LinkedList<>();

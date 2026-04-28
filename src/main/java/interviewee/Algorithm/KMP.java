@@ -1,6 +1,14 @@
 package interviewee.Algorithm;
 
 public class KMP {
+    /**
+     * 使用已经构建好的 next 数组在主串中查找模式串第一次出现的位置。
+     *
+     * @param str  主串
+     * @param dest 模式串
+     * @param next 模式串的 KMP 部分匹配表
+     * @return 匹配成功时返回起始下标，否则返回 -1
+     */
     private int mykmp(String str, String dest,int[] next) {
         int strlen = str.length();
         int destlen = dest.length();
@@ -18,6 +26,13 @@ public class KMP {
         }
         return -1;
     }
+
+    /**
+     * 构造 KMP 的 next 数组，用于在失配时决定模式串回退位置。
+     *
+     * @param dest 模式串
+     * @return next 数组
+     */
     private int[] myNext(String dest) {
         int pLen = dest.length();
         int[] next = new int[pLen];

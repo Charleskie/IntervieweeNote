@@ -35,6 +35,12 @@ public class luckyId{
     }
 
 
+    /**
+     * 对三位数字数组排序并返回最小值。
+     *
+     * @param arr 待排序数字数组
+     * @return 排序后的最小数字
+     */
     static int getMin(int[] arr){
         for(int i=0;i<arr.length;i++){
             for(int j=i;j<arr.length;j++){
@@ -48,6 +54,14 @@ public class luckyId{
         return arr[0];
     }
 
+    /**
+     * 计算为了弥补两侧数字和差值，至少需要修改几位数字。
+     *
+     * @param arr  需要增大的三位数字数组
+     * @param diff 目标差值
+     * @param in   已修改位数计数
+     * @return 最少修改位数
+     */
     static int compute(int[] arr,int diff,int in){
         getMin(arr);
         if(diff<(9-arr[0])){
